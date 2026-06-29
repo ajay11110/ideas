@@ -296,3 +296,362 @@ Unlike typical student/college project ideas (e.g., lost-and-found portals, basi
 2. **Build a skeleton MVP** covering just *one* core feature (e.g., for **SiteSense**, run a single Playwright script on a cron job and send an email).
 3. **Set up analytics** and user feedback early.
 4. **Deploy** to Vercel/Render/Fly.io and share with target users.
+## 📅 SaaS Ideas — 2026-06-29
+
+Idea 21: TrackESG
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion b
+- Current need: pass reason — sub-criterion c
+- Future-proof: pass reason — sub-criterion a
+
+1. Name — TrackESG
+2. Problem — SMB suppliers face intense pressure from enterprise buyers to report Scope 3 emissions, but they lack the budget and expertise to use enterprise-grade carbon accounting platforms.
+3. Target user — Sustainability Officer or CEO of mid-market manufacturing/logistics firms.
+4. Revenue model — $149/month flat SaaS subscription.
+5. Differentiation — Supplier-first design with automated templates and bulk CSV exports mapping directly to major enterprise ESG reporting formats.
+6. Validation signal — EU CSRD reporting rules rolling out between 2024 and 2026, pulling non-EU suppliers into corporate compliance scopes.
+7. Why not built yet — Enterprise ESG vendors focus on high-ticket enterprise buyers and ignore the low-margin SMB supplier segment.
+8. Future-proof horizon — Global net-zero deadlines and mandatory supply chain audits through 2030 and beyond.
+
+---
+
+Idea 22: VyapaarConsent
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion a
+- Current need: pass reason — sub-criterion c
+- Future-proof: pass reason — sub-criterion a
+
+1. Name — VyapaarConsent
+2. Problem — Indian e-commerce and consumer brands must capture legally compliant, multilingual consent from customers but lack localized, lightweight tools.
+3. Target user — D2C Brand Founders and Head of Product at e-commerce startups.
+4. Revenue model — $29/month base up to 10k users, scaling to $99/month.
+5. Differentiation — Native WhatsApp checkout consent integration, supporting 12+ regional Indian languages out-of-the-box.
+6. Validation signal — DPDP Rules 2025 notified, introducing fines up to ₹250 crore for non-compliant data collection.
+7. Why not built yet — Global players (OneTrust) price in USD and do not integrate with local channels like WhatsApp or regional language translation layers.
+8. Future-proof horizon — Continuous enforcement of DPDP Act and growing digital commerce in India through 2030.
+
+---
+
+Idea 23: BuildVerify
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion c
+- Current need: pass reason — sub-criterion a
+- Future-proof: pass reason — sub-criterion c
+
+1. Name — BuildVerify
+2. Problem — General contractors risk massive liability when subcontractors step on site with expired liability insurance or licenses, which are currently tracked manually on spreadsheets.
+3. Target user — Construction Project Manager or Operations Director.
+4. Revenue model — $99/month per active project site.
+5. Differentiation — OCR pipeline that automatically parses Certificates of Insurance (COI) and checks license status against real-time state database APIs.
+6. Validation signal — Discussions in r/construction highlighting sub-contractor license tracking as a top daily compliance risk.
+7. Why not built yet — Requires building state-by-state scraper systems and handling non-standardized COI document layouts.
+8. Future-proof horizon — Hardening insurance compliance mandates and digital auditing of construction safety standards.
+
+---
+
+Idea 24: AgentThrottle
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion a
+- Current need: pass reason — sub-criterion a
+- Future-proof: pass reason — sub-criterion b
+
+1. Name — AgentThrottle
+2. Problem — Developers deploying autonomous AI agents face sudden, massive API bills when agents get stuck in infinite logic loops or repeat LLM calls.
+3. Target user — AI Team Lead or CTO at startups.
+4. Revenue model — $49/month for up to 100k agent runs, then usage-based.
+5. Differentiation — Zero-latency proxy gateway that detects repetitive cognitive patterns and applies automated throttle limits.
+6. Validation signal — Developer horror stories of $2,000+ single-night bills from autonomous agents looping on GPT-4 APIs.
+7. Why not built yet — The developer agent market is new, and traditional APM/logging tools do not understand LLM agent cognitive loops.
+8. Future-proof horizon — Massive scale-out of autonomous agents and multi-agent systems replacing traditional software pipelines.
+
+---
+
+Idea 25: GSTCanary
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion c
+- Current need: pass reason — sub-criterion b
+- Future-proof: pass reason — sub-criterion a
+
+1. Name — GSTCanary
+2. Problem — Indian SMBs lose lakhs of rupees annually in Input Tax Credit (ITC) because their suppliers delay or fail to upload invoices on the GST portal.
+3. Target user — Indian SMB Owner or Chartered Accountant.
+4. Revenue model — ₹1,999/month ($25/mo) per GSTIN.
+5. Differentiation — Real-time automated reconciliation with ERPs (Tally, Zoho Books) and automated WhatsApp reminders sent to defaulting vendors.
+6. Validation signal — 2024-2025 GST rule updates mandating strict invoice matching before claiming input tax credits.
+7. Why not built yet — Requires complex integration with the official GSTN API and building automated WhatsApp follow-up pipelines.
+8. Future-proof horizon — Deepening integration of GST and digital tax audits in India's economy.
+
+---
+
+Idea 26: AgriTrace
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion a
+- Current need: pass reason — sub-criterion c
+- Future-proof: pass reason — sub-criterion a
+
+1. Name — AgriTrace
+2. Problem — Small agricultural exporters (cocoa, coffee, soy) face export bans to the EU if they cannot prove their crops weren't grown on deforested land.
+3. Target user — Cooperative Managers and Agro-Export Directors.
+4. Revenue model — $199/month base subscription.
+5. Differentiation — Mobile GIS mapping tool for local farmers that automatically generates EUDR-compliant geopartition reports.
+6. Validation signal — The strict implementation of EUDR compliance requirements starting in 2024-2025.
+7. Why not built yet — GIS solutions are tailored for enterprises, ignoring the highly fragmented smallholder cooperative networks.
+8. Future-proof horizon — Expansion of deforestation and biodiversity protection laws to cover more commodities globally.
+
+---
+
+Idea 27: MedCert
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion c
+- Current need: pass reason — sub-criterion c
+- Future-proof: pass reason — sub-criterion c
+
+1. Name — MedCert
+2. Problem — Software as a Medical Device (SaMD) startups waste weeks manually updating Design History Files (DHF) and compliance documents for FDA/ISO audits.
+3. Target user — QA/Regulatory Director at MedTech startups.
+4. Revenue model — $299/month per B2B seat.
+5. Differentiation — CI/CD integrated pipeline that auto-builds FDA-compliant change logs and safety matrices directly from Git commits and PRs.
+6. Validation signal — FDA 2024/2025 guidance on SaMD change control plans highlighting the need for continuous software validation.
+7. Why not built yet — Requires combining deep software engineering workflows (Git/CI) with complex medical regulatory standards.
+8. Future-proof horizon — The explosion of AI-driven diagnostics and medical software requiring continuous compliance validation.
+
+---
+
+Idea 28: LawDocket
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion c
+- Current need: pass reason — sub-criterion a
+- Future-proof: pass reason — sub-criterion c
+
+1. Name — LawDocket
+2. Problem — Indian litigation lawyers manage hundreds of active cases and miss hearings because case dates change dynamically on unstable government portals.
+3. Target user — Litigation Advocates and Independent Law Firms in India.
+4. Revenue model — ₹2,499/month ($30/mo) per advocate license.
+5. Differentiation — High-resiliency scraper network that queries e-Courts APIs daily and sends instant WhatsApp updates to advocates.
+6. Validation signal — India's e-Courts Phase III digital initiative and the massive backlog of 40+ million pending cases.
+7. Why not built yet — Scraping government sites is technically difficult due to frequent portal design changes, IP blocks, and Captchas.
+8. Future-proof horizon — Complete digitization of the Indian judicial system and virtual court hearings through 2030.
+
+---
+
+Idea 29: YardPulse
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion c
+- Current need: pass reason — sub-criterion b
+- Future-proof: pass reason — sub-criterion c
+
+1. Name — YardPulse
+2. Problem — Mid-sized warehouses lose track of shipping trailers parked in their yard, leading to delayed loading and expensive carrier detention fees.
+3. Target user — Warehouse Manager or Logistics Coordinator.
+4. Revenue model — $199/month per warehouse yard.
+5. Differentiation — Mobile OCR camera app that allows yard workers to scan license plates and trailer numbers to track dwell times in real-time.
+6. Validation signal — r/logistics threads complaining about carrier billing disputes due to missing yard arrival timestamps.
+7. Why not built yet — Major logistics software providers focus on warehouse management (WMS), ignoring the simple tracking needs of smaller yard spaces.
+8. Future-proof horizon — Global pressure to optimize shipping logistics and reduce idling truck emissions.
+
+---
+
+Idea 30: PromptAudit
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion a
+- Current need: pass reason — sub-criterion c
+- Future-proof: pass reason — sub-criterion b
+
+1. Name — PromptAudit
+2. Problem — Companies integrating third-party AI widgets (chatbots, searches) risk legal liability if these widgets leak user data or produce toxic outputs.
+3. Target user — Chief Information Security Officer (CISO) at mid-market firms.
+4. Revenue model — $199/month per active AI integration.
+5. Differentiation — An API wrapping SDK that audits inputs/outputs for prompt injections, data leaks, and outputs in real-time.
+6. Validation signal — Incidents of third-party support bots being hijacked by users to agree to illegal terms, leading to corporate liabilities.
+7. Why not built yet — Traditional web application firewalls (WAF) do not understand semantic prompts or AI context logs.
+8. Future-proof horizon — Rising global AI compliance laws (e.g., EU AI Act) requiring continuous auditability of AI systems.
+
+---
+
+Idea 31: WasteAudit
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion c
+- Current need: pass reason — sub-criterion c
+- Future-proof: pass reason — sub-criterion a
+
+1. Name — WasteAudit
+2. Problem — Commercial kitchens must comply with organic waste reporting laws but kitchen staff have no time to manually weigh and log food waste.
+3. Target user — Kitchen Manager or F&B Director.
+4. Revenue model — $79/month per kitchen location.
+5. Differentiation — Voice-activated logging interface designed for busy, loud kitchens that auto-translates speech into structured waste categories.
+6. Validation signal — SB 1383 enforcement and similar municipal organic waste laws rolling out globally in 2024-2025.
+7. Why not built yet — Tech builders target high-end corporate kitchens and ignore the compliance logging needs of typical local restaurants.
+8. Future-proof horizon — Increasing strictness of global sustainability standards and municipal waste disposal taxes.
+
+---
+
+Idea 32: UPIReconcile
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion c
+- Current need: pass reason — sub-criterion b
+- Future-proof: pass reason — sub-criterion a
+
+1. Name — UPIReconcile
+2. Problem — Indian MSMEs receive hundreds of small UPI payments daily and frequently get scammed by customers showing forged payment success screens.
+3. Target user — Small Retail Store Owner or Wholesale Distributor in India.
+4. Revenue model — ₹999/month ($12/mo).
+5. Differentiation — Android background service that parses incoming transaction SMS alerts and verifies them against bank API ledger feeds.
+6. Validation signal — Social media posts and local news reports detailing widespread fake UPI screenshot frauds impacting Kirana stores.
+7. Why not built yet — Large payment gateways focus on large-scale online integration, leaving offline store owners with manual verification.
+8. Future-proof horizon — UPI transaction volume growth and complete digitization of retail in emerging markets.
+
+---
+
+Idea 33: LocalRent
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion a
+- Current need: pass reason — sub-criterion a
+- Future-proof: pass reason — sub-criterion c
+
+1. Name — LocalRent
+2. Problem — Landlords in Tier 2 and Tier 3 Indian cities struggle to perform verified tenant background checks and create local e-stamp rental agreements.
+3. Target user — Property Owner or Small Property Manager.
+4. Revenue model — ₹499 ($6) per transaction (verification and agreement generation).
+5. Differentiation — Mobile-optimized portal integrated with regional land registry and e-stamp APIs to complete verification and stamping.
+6. Validation signal — Increased migration and real estate activity in Tier 2/3 Indian cities alongside government push for e-registration.
+7. Why not built yet — Property platforms focus on listing and discovery in metro areas, leaving regional legal transactions to local brokers.
+8. Future-proof horizon — Continuous formalization of the rental housing sector and digital legal transactions in India.
+
+---
+
+Idea 34: AgentBilling
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion a
+- Current need: pass reason — sub-criterion a
+- Future-proof: pass reason — sub-criterion b
+
+1. Name — AgentBilling
+2. Problem — Founders of AI agent platforms struggle to accurately charge customers for nested agent runs, token counts, and tool API executions.
+3. Target user — SaaS Founder or Product Manager building AI agent systems.
+4. Revenue model — 1% of transaction volume processed + $49/month.
+5. Differentiation — High-throughput middleware that aggregates complex compute transactions into automated, structured invoices.
+6. Validation signal — Rise of nested agent frameworks and developer concerns regarding profit margin erosion due to unmonitored LLM token runs.
+7. Why not built yet — Usage-based billing platforms are built for simple metrics (API calls, database bytes) rather than multi-layered AI agent runs.
+8. Future-proof horizon — Transition of modern business software from seat-based pricing to outcome-based or agentic run-time pricing.
+
+---
+
+Idea 35: SafeContract
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion c
+- Current need: pass reason — sub-criterion b
+- Future-proof: pass reason — sub-criterion c
+
+1. Name — SafeContract
+2. Problem — General contractors face legal battles and project delays when subcontractors place liens on properties due to missing or delayed lien waivers.
+3. Target user — Construction Accountant or Project Manager.
+4. Revenue model — $149/month flat fee.
+5. Differentiation — Automated payment integration that releases subcontractor funds only after digital signature verification of the lien waiver.
+6. Validation signal — Industry statistics showing payment disputes and mechanics' liens are the leading cause of construction delays.
+7. Why not built yet — Construction software (Procore) is built for general management, leaving payment-lien release synchronization to manual accounting.
+8. Future-proof horizon — Complete digitization of construction payments and mandatory digital compliance checks.
+
+---
+
+Idea 36: DeviceGuard
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion c
+- Current need: pass reason — sub-criterion c
+- Future-proof: pass reason — sub-criterion a
+
+1. Name — DeviceGuard
+2. Problem — Small refurbished electronics sellers waste hours manually checking IMEIs, logging data wipes, and listing devices across marketplaces.
+3. Target user — Refurbished Electronics Store Owner or Bulk eBay Seller.
+4. Revenue model — $89/month.
+5. Differentiation — Direct USB diagnostics connection that reads serialization, logs data wipes, and drafts marketplace listings in one flow.
+6. Validation signal — Growth of refurbishing platforms like BackMarket and strict marketplace requirements for data-erasure certificates.
+7. Why not built yet — Enterprise asset disposition (ITAD) software is built for corporations, leaving small retail refurbishers with no budget-friendly tools.
+8. Future-proof horizon — Environmental policies mandating phone/electronics recycling and data protection auditing.
+
+---
+
+Idea 37: TaxBhasha
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion a
+- Current need: pass reason — sub-criterion c
+- Future-proof: pass reason — sub-criterion a
+
+1. Name — TaxBhasha
+2. Problem — Non-English speaking micro-business owners in India struggle to file GST returns on complex government portals they cannot read.
+3. Target user — Kirana Shop Owners and Small Regional Wholesale Traders.
+4. Revenue model — ₹299 ($3.5) per filing transaction.
+5. Differentiation — Voice-first interface supporting regional languages that auto-classifies photo receipts and submits GST filings.
+6. Validation signal — Growth of regional internet users in India and official MSME statistics indicating language barriers as a major tax hurdle.
+7. Why not built yet — Traditional tax software companies build for English-speaking accountants and corporate teams.
+8. Future-proof horizon — The expansion of tax formalization to India's rural and semi-urban MSME sectors.
+
+---
+
+Idea 38: ClinicalAudit
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion b
+- Current need: pass reason — sub-criterion c
+- Future-proof: pass reason — sub-criterion c
+
+1. Name — ClinicalAudit
+2. Problem — Small biotech startups and private clinics risk losing trial validation because of missing signatures or compliance gaps in trial folders.
+3. Target user — Clinical Trial Coordinator or Director.
+4. Revenue model — $249/month per active trial.
+5. Differentiation — Lightweight, regulatory-compliant folder system that uses AI to scan documents for missing fields or compliance errors.
+6. Validation signal — Industry shift towards decentralized, localized clinical trials that lack enterprise infrastructure support.
+7. Why not built yet — Veeva and major TMF players focus on large pharma, leaving small clinical research organizations (CROs) with manual folders.
+8. Future-proof horizon — Escalating global healthcare compliance standards and digitization of clinical trial protocols.
+
+---
+
+Idea 39: BuildSafe
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion c
+- Current need: pass reason — sub-criterion c
+- Future-proof: pass reason — sub-criterion c
+
+1. Name — BuildSafe
+2. Problem — Construction firms face massive OSHA fines for safety violations that occur dynamically on site when safety managers are not looking.
+3. Target user — Construction Safety Officer or General Superintendent.
+4. Revenue model — $129/month per active site.
+5. Differentiation — Mobile app that runs local computer vision on site photos to flag safety violations (missing PPE, open hazards) instantly.
+6. Validation signal — Official OSHA reports showing increased safety site inspections and a rising volume of non-compliance fines.
+7. Why not built yet — Safety software is administrative (forms, checklists) rather than using real-time computer vision for local detection.
+8. Future-proof horizon — Mandates for automated safety audits and stricter liability laws on job site operations.
+
+---
+
+Idea 40: BioLabel
+
+Filter check:
+- Uniqueness: pass reason — sub-criterion b
+- Current need: pass reason — sub-criterion c
+- Future-proof: pass reason — sub-criterion c
+
+1. Name — BioLabel
+2. Problem — Mid-sized medical device manufacturers face export delays because their product labeling fails to meet varying FDA and EU UDI guidelines.
+3. Target user — Regulatory Affairs Manager or Product Labeling Designer.
+4. Revenue model — $299/month.
+5. Differentiation — Automated validation engine that checks label artwork against updated FDA/EU MDR databases to confirm barcode and layout compliance.
+6. Validation signal — EU MDR enforcement cycles creating export compliance bottlenecks for MedTech companies globally.
+7. Why not built yet — Label design software is generic (BarTender), while compliance is checked manually by regulatory experts.
+8. Future-proof horizon — Continuous globalization of medical regulatory frameworks and UDI identification requirements.
